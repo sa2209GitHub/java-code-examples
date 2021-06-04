@@ -2,7 +2,7 @@
 //
 import java.util.Arrays;
 
-class Quicksort {
+class Sort {
 
   // method to find the partition position
   static int partition(int array[], int low, int high) {
@@ -56,7 +56,7 @@ class Quicksort {
 }
 
 // Main class
-class Example101 {
+class QuickSort {
   public static void main(String args[]) {
 
     int[] data = { 8, 7, 2, 1, 0, 9, 6 };
@@ -66,7 +66,7 @@ class Example101 {
     int size = data.length;
 
     // call quicksort() on array data
-    Quicksort.quickSort(data, 0, size - 1);
+    Sort.quickSort(data, 0, size - 1);
 
     System.out.println("Sorted Array in Ascending Order");
     System.out.println(Arrays.toString(data));

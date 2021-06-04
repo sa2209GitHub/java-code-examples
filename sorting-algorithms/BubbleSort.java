@@ -3,7 +3,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-class Example100 {
+class BubbleSort {
 
   // create an object of scanner
   // to take input from the user
@@ -54,7 +54,7 @@ class Example100 {
     int[] data = { -2, 45, 0, 11, -9 };
 
     // create an object of Main class
-    Example100 bs = new Example100();
+    BubbleSort bs = new BubbleSort();
 
     // call the method bubbleSort using object bs
     // pass the array as the method argument

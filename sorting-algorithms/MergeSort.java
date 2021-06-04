@@ -2,7 +2,7 @@
 //
 import java.util.Arrays;
 
-class Example102 {
+class MergeSort {
 
   // Merge two sub arrays L and M into array
   void merge(int array[], int p, int q, int r) {
@@ -76,7 +76,7 @@ class Example102 {
     // created an unsorted array
     int[] array = { 6, 5, 12, 10, 9, 1 };
 
-    Example102 ob = new Example102();
+    MergeSort ob = new MergeSort();
 
     // call the method mergeSort()
     // pass argument: array, first index and last index
